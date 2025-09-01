@@ -1,0 +1,28 @@
+.roxo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #670bbd;
+  color: #fff;
+  font-size: 2em;
+}
+
+.link_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  border: 1px solid white;
+  border-radius: 50px;
+  height: 50px;
+  width: 110px;
+  color: aqua;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  &.link_style:hover {
+    background-color: #00000071;
+  }
+}
