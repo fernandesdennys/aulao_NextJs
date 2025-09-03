@@ -1,0 +1,30 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.header a {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: 3px solid white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.486);
+  border-radius: 15px;
+  font-weight: bolder;
+  &:hover {
+    background-color: rgba(21, 255, 0, 0.541);
+  }
+}
+.container {
+  padding: 25px;
+  background-color: rgb(0, 0, 0);
+}
+
+.container h1 {
+  margin:  0px;
+}
