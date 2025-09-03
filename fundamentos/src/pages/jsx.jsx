@@ -1,3 +1,6 @@
+import Layout from "../components/Layout";
+import styles from "../styles/Layout.module.css"
+
 export default function jsx() {
   const a = 15;
   const b = 3;
@@ -9,12 +12,14 @@ export default function jsx() {
   }
 
   return (
-    <div>
-      {titulo}
-      {subtitulo()}
-      {a * b} <br />
-      
-      <p>{JSON.stringify({ nome: 'Dennys', Idade: 32 })}</p>
-    </div>
+    <Layout titulo="Entendendo o JSX">
+      <div className={styles.bcbody}>
+        {titulo}
+        {subtitulo()}
+        {a * b} <br />
+        
+        <p>{JSON.stringify({ nome: 'Dennys', Idade: 32 })}</p>
+      </div>
+    </Layout>
   );
 }
