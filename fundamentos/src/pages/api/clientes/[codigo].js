@@ -1,9 +1,8 @@
 export default function handler(req, res) {
+  const codigo = req.query.codigo
   res.status(200).json({
-    id: req.query.codigo,
-    id: 2105,
+    id: codigo,
     nome: `Dennys ${codigo}`,
-    idade: 32,
     email: `dennys.projetos@outlook.com`
   })
 }
