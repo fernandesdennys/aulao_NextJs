@@ -9,14 +9,19 @@ export default function Inicio() {
       style={{
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
         flexWrap: 'wrap',
+        background: 'black',
+        borderRadius: '20px',
+        width: '80%',
+        margin: 'auto',
+        padding: '20px'
       }}
     >
       {<Navegador texto="estilo" destino="estilo" />}
       <Navegador texto="exHeader" destino="exHeader" cor="darkgoldenrod" />
       <Navegador texto="jsx" destino="jsx" cor="crimson" /><Navegador texto="Navegação #01" destino="/navegacao" cor="mediumspringgreen"/>
       <Navegador texto="Navegação #02" destino="/cliente/sp-2/984576" cor="blue" />
+      <Navegador texto="Componente com Estado" destino="/estado" cor="teal" />
     </div>
   );
 }
