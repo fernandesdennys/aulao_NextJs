@@ -17,12 +17,13 @@ export default function Inicio() {
         padding: '20px'
       }}
     >
-      {<Navegador texto="estilo" destino="estilo" />}
-      <Navegador texto="exHeader" destino="exHeader" cor="darkgoldenrod" />
-      <Navegador texto="jsx" destino="jsx" cor="crimson" /><Navegador texto="Navegação #01" destino="/navegacao" cor="mediumspringgreen"/>
-      <Navegador texto="Navegação #02" destino="/cliente/sp-2/984576" cor="blue" />
-      <Navegador texto="Componente com Estado" destino="/estado" cor="teal" />
-      <Navegador texto="Integração com API #01" destino="/integracao_1" cor="green" />
+      {<Navegador texto="estilo" destino="estilo" cor="#007777" />}
+      <Navegador texto="exHeader" destino="exHeader" cor="#006666" />
+      <Navegador texto="jsx" destino="jsx" cor="#005555" /><Navegador texto="Navegação #01" destino="/navegacao" cor="#004444"/>
+      <Navegador texto="Navegação #02" destino="/cliente/sp-2/984576" cor="#003333" />
+      <Navegador texto="Componente com Estado" destino="/estado" cor="#477774" />
+      <Navegador texto="Integração com API #01" destino="/integracao_1" cor="#466664" />
+      <Navegador texto="Conteúdo Estático" destino="/estatico" cor="#466664" />
     </div>
   );
 }
